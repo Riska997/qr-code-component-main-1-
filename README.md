@@ -39,45 +39,16 @@ This project is about creating a simple qr code main component. The design must 
 
 ### What I learned
 
-This is not the first time I have created a web page using HTML and CSS. But it is still challenging for me to ensure that the web page can be accessible to all screen sizes. I have learnted that it is beeter to use percentages and viewpoint when declaring the height and width. 
+This is not the first time I have created a web page using HTML and CSS. But it is still challenging for me to ensure that the web page can be accessible to all screen sizes. I have learnted that it is beeter to use percentages and viewpoint when declaring the height and width and to always ensure that I use landmarks.
 
 ```css
-body{
-
-    font-size: 15px;
-    font-family: 'Outfit', sans-serif;
+main.container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-color: hsl(212, 45%, 89%);
+    align-items: center;
+    height: 100%;
+    background-color: hsl(212, 45%, 89%);/*background-color: #d0dbe7;*/
     padding: 30px;
-}
-
-#box{
-
-    background-color:hsl(0, 0%, 100%);
-    border-radius: 20px;
-    overflow: hidden;
-    text-align: center;
-    width: 40%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    
-}
-
-img{
-
-    border-radius: 30px;
-    width: 100%;
-    padding: 20px;
-    height: 60%;;
-}
-
-.container{
-
-    padding: 10px;
-    height: 30%;
 }
 
 ```
